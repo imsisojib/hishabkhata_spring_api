@@ -1,9 +1,9 @@
 HELP.md
-#ignoring target folder due to hosting using public repo
-#target/
-#!.mvn/wrapper/maven-wrapper.jar
-#!**/src/main/**/target/
-#!**/src/test/**/target/
+#ignoring target folder due to hosting to public repo required server
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
 #ingore application.properties
 application.properties
